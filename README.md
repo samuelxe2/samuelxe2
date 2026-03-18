@@ -1,97 +1,28 @@
-<!-- NEO-JAPAN CYBERPUNK README -->
-<!-- ██████████████████████████████████████████████████████ -->
-<!--  ⛩  SYSTEMS ARCHITECT  |  BACKEND ENGINEER  |  ⚡     -->
-<!-- ██████████████████████████████████████████████████████ -->
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  ║
-║  ░                                                              ░  ║
-║  ░   ███████╗██╗   ██╗███████╗████████╗███████╗███╗   ███╗     ░  ║
-║  ░   ██╔════╝╚██╗ ██╔╝██╔════╝╚══██╔══╝██╔════╝████╗ ████║     ░  ║
-║  ░   ███████╗ ╚████╔╝ ███████╗   ██║   █████╗  ██╔████╔██║     ░  ║
-║  ░   ╚════██║  ╚██╔╝  ╚════██║   ██║   ██╔══╝  ██║╚██╔╝██║     ░  ║
-║  ░   ███████║   ██║   ███████║   ██║   ███████╗██║ ╚═╝ ██║     ░  ║
-║  ░   ╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝     ░  ║
-║  ░                                                              ░  ║
-║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-<!-- Typing SVG animado -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=3000&pause=1000&color=00FFB3&center=true&vCenter=true&width=700&lines=⛩+Systems+Engineer+%26+Backend+Developer;⚡+Arquitecto+de+soluciones+escalables;🏯+PHP+%7C+Python+%7C+JavaScript+%7C+SQL;☁️+Azure+Cloud+%7C+ETL+Pipelines+%7C+Laravel;侍+Building+systems+that+endure)](https://git.io/typing-svg)
-
-<br>
-
-<!-- Divisor Neo-Japan -->
-```
-　　　　　　　　　 ⛩ — 東京 // SECTOR_7 — ⛩
-　　　　　◈━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◈
-```
-
-</div>
-
 ---
 
-<div align="center">
-
-## ｢ 身元確認 ｣ — IDENTITY.LOG
-
-</div>
-
-```python
-# /sys/identity/profile.py — CLASSIFIED: OPEN SOURCE
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-class Engineer:
-    def __init__(self):
-        self.codename     = "Systems Architect"
-        self.origin       = "🏯 Neo-Japan Grid / Backend Division"
-        self.disciplines  = [
-            "System Architecture",
-            "Scalable Backend Development",
-            "ETL Pipeline Engineering",
-            "Cloud Infrastructure (Azure)",
-            "API Integration & Design",
-        ]
-        self.philosophy   = "Build systems that endure — clean, maintainable, purposeful."
-        self.protocol     = "Collaborative · Adaptive · Pragmatic"
-
-    def __repr__(self):
-        return "[ ⚡ ONLINE ] — Ready to architect the next layer."
-```
+## 武器庫 — STACK
 
 <div align="center">
 
-```
-◈━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◈
-```
-
-</div>
-
----
-
-## ⛩ ｢ 武器庫 ｣ — ARSENAL.STACK
-
-<div align="center">
-
-### ▸ CORE LANGUAGES
+**Languages**
 
 ![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-%2300758F.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=postgresql&logoColor=white)
+![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
+![Prolog](https://img.shields.io/badge/Prolog-E61B23?style=for-the-badge&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-### ▸ FRAMEWORKS & TOOLS
+**Frameworks & Tools**
 
 ![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
 
-### ▸ CLOUD & INFRASTRUCTURE
+**Cloud & Infra**
 
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -102,192 +33,227 @@ class Engineer:
 
 ---
 
-## 🏯 ｢ 任務一覧 ｣ — MISSION.PROJECTS
+## 任務 — PROJECTS
 
-> **Sistema de clasificación: NIVEL DE COMPLEJIDAD ARQUITECTÓNICA**
+> Clasificados por complejidad arquitectónica. Clic en cada uno para detalles.
 
 ---
 
-### ◈ NIVEL III — ARQUITECTURA CRÍTICA 　`[ ████████████ 100% ]`
+### ◈ TIER III — ARQUITECTURA COMPLEJA
+
+---
 
 <details>
-<summary><b>⚡ ETL Pipeline Engine — Data Processing Grid</b></summary>
+<summary><b>⚡ metamodelo_metametamodelo</b> &nbsp;·&nbsp; <code>TypeScript</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/TIER-III-00FFB3?style=flat-square&labelColor=0D1117"/></summary>
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  PROYECTO   │  ETL Pipeline con Polars + Python               │
-│  ROL        │  Arquitecto & Desarrollador principal           │
-│  STACK      │  Python · Polars · SQL · Azure · Orchestration  │
-│  STATUS     │  [ ████████████ ] DEPLOYED                      │
-└──────────────────────────────────────────────────────────────┘
-```
+<br>
 
-Pipeline de procesamiento de datos de alto rendimiento diseñado para transformar y mover millones de registros con eficiencia quirúrgica. Construido con **Polars** para velocidad vectorizada y orquestación modular que garantiza mantenibilidad a largo plazo.
+<div align="center">
+<svg width="680" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="160" rx="10" fill="#0D1117" stroke="#00FFB3" stroke-width="1.5"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
+  <text x="280" y="22" font-family="monospace" font-size="11" fill="#555">terminal — samuelxe2</text>
+  <line x1="0" y1="32" x2="680" y2="32" stroke="#1a1a2e" stroke-width="1"/>
+  <text x="16" y="58" font-family="monospace" font-size="13" fill="#00FFB3">$ cat metamodelo.info</text>
+  <text x="16" y="80" font-family="monospace" font-size="12" fill="#88ffcc">▸ Metamodelo y meta-metamodelo de sistemas de informacion</text>
+  <text x="16" y="98" font-family="monospace" font-size="12" fill="#88ffcc">▸ Stack: TypeScript · Arquitectura de modelos · MDE</text>
+  <text x="16" y="116" font-family="monospace" font-size="12" fill="#88ffcc">▸ Foco: Abstraccion por capas · Metamodelado formal</text>
+  <text x="16" y="145" font-family="monospace" font-size="12" fill="#00FFB3">
+    <tspan>$ _</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
+</div>
 
-**Capacidades:**
-- ⚡ Procesamiento vectorizado con Polars (10x más rápido que Pandas)
-- 🔄 Transformaciones modulares y reusables
-- ☁️ Integración nativa con Azure Data Services
-- 🛡️ Validación de esquemas y manejo de errores en cascada
+**Descripción:** Sistema de metamodelado e ingeniería dirigida por modelos (MDE). Implementa capas de abstracción desde el meta-metamodelo hasta instancias concretas, siguiendo estándares de arquitectura formal de sistemas de información.
+
+[![Repo](https://img.shields.io/badge/→_Ver_Repositorio-0D1117?style=for-the-badge&logo=github&logoColor=00FFB3)](https://github.com/samuelxe2/metamodelo_metametamodelo)
 
 </details>
 
 ---
 
-### ◈ NIVEL III — SISTEMA DE ESCALA ALTA 　`[ ████████████ 100% ]`
-
 <details>
-<summary><b>🏯 Backend API Platform — Laravel Fortress</b></summary>
+<summary><b>🐜 ACO_Server_Routing</b> &nbsp;·&nbsp; <code>Python</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/TIER-III-00FFB3?style=flat-square&labelColor=0D1117"/></summary>
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  PROYECTO   │  Plataforma API RESTful con Laravel             │
-│  ROL        │  Backend Developer & System Designer            │
-│  STACK      │  Laravel · PHP · MySQL · JWT · Docker           │
-│  STATUS     │  [ ████████████ ] DEPLOYED                      │
-└──────────────────────────────────────────────────────────────┘
-```
+<br>
 
-Plataforma backend de alta disponibilidad con arquitectura orientada a mantenibilidad. Autenticación robusta, gestión de roles, y una capa de servicios que separa la lógica de negocio del transporte HTTP.
+<div align="center">
+<svg width="680" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="160" rx="10" fill="#0D1117" stroke="#00FFB3" stroke-width="1.5"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
+  <text x="280" y="22" font-family="monospace" font-size="11" fill="#555">terminal — samuelxe2</text>
+  <line x1="0" y1="32" x2="680" y2="32" stroke="#1a1a2e" stroke-width="1"/>
+  <text x="16" y="58" font-family="monospace" font-size="13" fill="#00FFB3">$ cat aco_routing.info</text>
+  <text x="16" y="80" font-family="monospace" font-size="12" fill="#88ffcc">▸ Algoritmo de Colonia de Hormigas para ruteo optimo de servidores</text>
+  <text x="16" y="98" font-family="monospace" font-size="12" fill="#88ffcc">▸ Stack: Python · Algoritmos bioinspirados · Optimizacion combinatoria</text>
+  <text x="16" y="116" font-family="monospace" font-size="12" fill="#88ffcc">▸ Foco: Heuristica · Grafos · Reduccion de latencia en rutas</text>
+  <text x="16" y="145" font-family="monospace" font-size="12" fill="#00FFB3">
+    <tspan>$ _</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
+</div>
 
-**Capacidades:**
-- 🔐 Autenticación JWT + control de acceso por roles
-- 📐 Arquitectura en capas: Controller → Service → Repository
-- 🧪 Test coverage con PHPUnit
-- 🐳 Containerizado con Docker para consistencia de entornos
+**Descripción:** Implementación del algoritmo ACO (Ant Colony Optimization) aplicado al problema de ruteo eficiente en redes de servidores. Optimiza caminos bajo restricciones dinámicas usando inteligencia colectiva bioinspirada.
+
+[![Repo](https://img.shields.io/badge/→_Ver_Repositorio-0D1117?style=for-the-badge&logo=github&logoColor=00FFB3)](https://github.com/samuelxe2/ACO_Server_Routing)
 
 </details>
 
 ---
 
-### ◈ NIVEL II — INTEGRACIÓN DE SISTEMAS 　`[ ████████░░░░ 75% ]`
-
 <details>
-<summary><b>☁️ Azure Cloud Integration — Sky Bridge</b></summary>
+<summary><b>🖥️ mini_os</b> &nbsp;·&nbsp; <code>Python</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/TIER-III-00FFB3?style=flat-square&labelColor=0D1117"/></summary>
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  PROYECTO   │  Integración de servicios cloud Microsoft Azure │
-│  ROL        │  Cloud Developer & Integration Specialist       │
-│  STACK      │  Azure Functions · Blob Storage · SQL Azure     │
-│  STATUS     │  [ ████████░░░░ ] IN PROGRESS                   │
-└──────────────────────────────────────────────────────────────┘
-```
+<br>
 
-Puente entre sistemas locales y la nube de Azure. Automatización de flujos con Azure Functions y almacenamiento escalable con Blob Storage.
+<div align="center">
+<svg width="680" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="160" rx="10" fill="#0D1117" stroke="#00FFB3" stroke-width="1.5"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
+  <text x="280" y="22" font-family="monospace" font-size="11" fill="#555">terminal — samuelxe2</text>
+  <line x1="0" y1="32" x2="680" y2="32" stroke="#1a1a2e" stroke-width="1"/>
+  <text x="16" y="58" font-family="monospace" font-size="13" fill="#00FFB3">$ cat mini_os.info</text>
+  <text x="16" y="80" font-family="monospace" font-size="12" fill="#88ffcc">▸ Simulacion de sistema operativo minimalista en Python</text>
+  <text x="16" y="98" font-family="monospace" font-size="12" fill="#88ffcc">▸ Stack: Python · Gestion de procesos · Scheduling · Memory mgmt</text>
+  <text x="16" y="116" font-family="monospace" font-size="12" fill="#88ffcc">▸ Foco: Bajo nivel · Concurrencia · Fundamentos de OS</text>
+  <text x="16" y="145" font-family="monospace" font-size="12" fill="#00FFB3">
+    <tspan>$ _</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
+</div>
+
+**Descripción:** Mini sistema operativo simulado con gestión de procesos, scheduling y manejo de memoria. Demuestra comprensión profunda de los fundamentos de sistemas operativos desde cero.
+
+[![Repo](https://img.shields.io/badge/→_Ver_Repositorio-0D1117?style=for-the-badge&logo=github&logoColor=00FFB3)](https://github.com/samuelxe2/mini_os)
 
 </details>
 
 ---
 
-### ◈ NIVEL II — APLICACIÓN WEB FULL-STACK 　`[ ████████░░░░ 75% ]`
+### ◈ TIER II — SISTEMAS FUNCIONALES
+
+---
 
 <details>
-<summary><b>🌐 Web Application System — City Layer</b></summary>
+<summary><b>🔍 scanner</b> &nbsp;·&nbsp; <code>Python</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/TIER-II-88ffcc?style=flat-square&labelColor=0D1117"/> &nbsp;|&nbsp; <b>⚙️ SimuladorPlanificacion</b> &nbsp;·&nbsp; <code>Python</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/TIER-II-88ffcc?style=flat-square&labelColor=0D1117"/></summary>
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  PROYECTO   │  Aplicación Web con integración de APIs         │
-│  ROL        │  Full-Stack Developer                           │
-│  STACK      │  JavaScript · PHP · REST APIs · SQL             │
-│  STATUS     │  [ ████████░░░░ ] ACTIVE                        │
-└──────────────────────────────────────────────────────────────┘
-```
+<br>
 
-Aplicación web con consumo de múltiples APIs externas, arquitectura MVC y optimización de consultas para respuesta sub-200ms.
+<div align="center">
+<svg width="680" height="175" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="175" rx="10" fill="#0D1117" stroke="#88ffcc" stroke-width="1.5"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
+  <text x="280" y="22" font-family="monospace" font-size="11" fill="#555">terminal — samuelxe2</text>
+  <line x1="0" y1="32" x2="680" y2="32" stroke="#1a1a2e" stroke-width="1"/>
+  <text x="16" y="58" font-family="monospace" font-size="13" fill="#88ffcc">$ cat scanner.info &amp;&amp; cat simulador.info</text>
+  <text x="16" y="80" font-family="monospace" font-size="12" fill="#aaffdd">▸ scanner              → Escaneo y analisis de red / puertos con Python</text>
+  <text x="16" y="98" font-family="monospace" font-size="12" fill="#aaffdd">▸ SimuladorPlanificacion → Algoritmos FCFS, SJF, Round Robin visualizados</text>
+  <text x="16" y="116" font-family="monospace" font-size="12" fill="#aaffdd">▸ proyecto_tarea_so    → Tareas de sistemas operativos en Python</text>
+  <text x="16" y="155" font-family="monospace" font-size="12" fill="#88ffcc">
+    <tspan>$ _</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
+</div>
+
+[![scanner](https://img.shields.io/badge/→_scanner-0D1117?style=for-the-badge&logo=github&logoColor=88ffcc)](https://github.com/samuelxe2/scanner)
+[![SimuladorPlanificacion](https://img.shields.io/badge/→_SimuladorPlanificacion-0D1117?style=for-the-badge&logo=github&logoColor=88ffcc)](https://github.com/samuelxe2/SimuladorPlanificacion)
 
 </details>
 
 ---
 
-### ◈ NIVEL I — MÓDULO ESPECIALIZADO 　`[ ████░░░░░░░░ 40% ]`
-
 <details>
-<summary><b>🔧 Automation Scripts & Utilities — Ghost Tools</b></summary>
+<summary><b>🌐 interfaceBD</b> &nbsp;·&nbsp; <code>TypeScript</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/TIER-II-88ffcc?style=flat-square&labelColor=0D1117"/> &nbsp;|&nbsp; <b>💧 simulacion_agua</b> &nbsp;·&nbsp; <code>Python</code> &nbsp;·&nbsp; <img src="https://img.shields.io/badge/TIER-II-88ffcc?style=flat-square&labelColor=0D1117"/></summary>
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  PROYECTO   │  Scripts de automatización y utilidades         │
-│  ROL        │  Developer                                      │
-│  STACK      │  Python · Bash · SQL                            │
-│  STATUS     │  [ ████░░░░░░░░ ] UTILITIES                     │
-└──────────────────────────────────────────────────────────────┘
-```
+<br>
 
-Colección de herramientas para automatizar tareas repetitivas, migraciones de datos y reportes.
+<div align="center">
+<svg width="680" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="160" rx="10" fill="#0D1117" stroke="#88ffcc" stroke-width="1.5"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
+  <text x="280" y="22" font-family="monospace" font-size="11" fill="#555">terminal — samuelxe2</text>
+  <line x1="0" y1="32" x2="680" y2="32" stroke="#1a1a2e" stroke-width="1"/>
+  <text x="16" y="58" font-family="monospace" font-size="13" fill="#88ffcc">$ cat interfaceBD.info &amp;&amp; cat simulacion_agua.info</text>
+  <text x="16" y="80" font-family="monospace" font-size="12" fill="#aaffdd">▸ interfaceBD      → Interfaz visual TypeScript para gestion de bases de datos</text>
+  <text x="16" y="98" font-family="monospace" font-size="12" fill="#aaffdd">▸ simulacion_agua  → Simulacion numerica de redes hidricas en Python</text>
+  <text x="16" y="116" font-family="monospace" font-size="12" fill="#aaffdd">▸ wan_tramas       → Manejo de tramas y protocolos WAN</text>
+  <text x="16" y="145" font-family="monospace" font-size="12" fill="#88ffcc">
+    <tspan>$ _</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
+</div>
+
+[![interfaceBD](https://img.shields.io/badge/→_interfaceBD-0D1117?style=for-the-badge&logo=github&logoColor=88ffcc)](https://github.com/samuelxe2/interfaceBD)
+[![simulacion_agua](https://img.shields.io/badge/→_simulacion_agua-0D1117?style=for-the-badge&logo=github&logoColor=88ffcc)](https://github.com/samuelxe2/simulacion_agua)
+[![wan_tramas](https://img.shields.io/badge/→_wan_tramas-0D1117?style=for-the-badge&logo=github&logoColor=88ffcc)](https://github.com/samuelxe2/wan_tramas)
 
 </details>
 
 ---
 
-## ⚡ ｢ 統計 ｣ — COMBAT.STATS
+### ◈ TIER I — MÓDULOS & UTILIDADES
+
+---
+
+<details>
+<summary><b>🃏 BlackJack-Recursivo &nbsp; 🧮 probabilidad-final &nbsp; λ Ejercicios-haskell &nbsp; 🧠 Nomina-prolog</b></summary>
+
+<br>
+
+<div align="center">
+<svg width="680" height="190" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="190" rx="10" fill="#0D1117" stroke="#333" stroke-width="1.5"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
+  <text x="280" y="22" font-family="monospace" font-size="11" fill="#555">terminal — samuelxe2</text>
+  <line x1="0" y1="32" x2="680" y2="32" stroke="#1a1a2e" stroke-width="1"/>
+  <text x="16" y="58" font-family="monospace" font-size="13" fill="#555">$ ls ./utilities/</text>
+  <text x="16" y="78" font-family="monospace" font-size="12" fill="#555">▸ BlackJack-Recursivo          → BlackJack con recursion pura en Python</text>
+  <text x="16" y="96" font-family="monospace" font-size="12" fill="#555">▸ probabilidad-final           → Minimos cuadrados y modelos probabilisticos</text>
+  <text x="16" y="114" font-family="monospace" font-size="12" fill="#555">▸ Ejercicios-practicos-haskell → Programacion funcional en Haskell</text>
+  <text x="16" y="132" font-family="monospace" font-size="12" fill="#555">▸ Nomina-prolog / familia      → Logica declarativa en Prolog</text>
+  <text x="16" y="150" font-family="monospace" font-size="12" fill="#555">▸ laberinto                   → Solucion de laberintos con Prolog</text>
+  <text x="16" y="173" font-family="monospace" font-size="12" fill="#555">
+    <tspan>$ _</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
+</div>
+
+</details>
+
+---
+
+## 統計 — STATS
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FFB3&icon_color=00FFB3&text_color=C9D1D9)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samuelxe2&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FFB3&icon_color=00FFB3&text_color=C9D1D9)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FFB3&text_color=C9D1D9)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samuelxe2&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FFB3&text_color=C9D1D9)
 
-![Streak Stats](https://streak-stats.demolab.com/?user=TU_USUARIO&theme=dark&hide_border=true&background=0D1117&stroke=00FFB3&ring=00FFB3&fire=FF6B6B&currStreakLabel=00FFB3)
+![Streak](https://streak-stats.demolab.com/?user=samuelxe2&theme=dark&hide_border=true&background=0D1117&stroke=00FFB3&ring=00FFB3&fire=00cc66&currStreakLabel=00FFB3)
 
 </div>
 
 ---
 
-## 🎌 ｢ 道 ｣ — THE WAY
+## 道 — THE WAY
 
 <div align="center">
-
-```
-　　　　　　　　　　　　　　　 ⛩
-　　　　　　　　　 ┌───────────────────────┐
-　　　　　　　　　 │                       │
-　　　　　　　　　 │   「 整然 」            │
-　　　　　　　　　 │                       │
-　　　　　　　　　 │   Clean architecture  │
-　　　　　　　　　 │   endures beyond any  │
-　　　　　　　　　 │   single feature.     │
-　　　　　　　　　 │                       │
-　　　　　　　　　 └───────────────────────┘
-　　　　　　　　　　　　　　　　│
-　　　　　　　　　 ┌────────────┼────────────┐
-　　　　　　　　　 │            │            │
-　　　　　　　　　侍          侍          侍
-　　　　　　　MAINTAINABLE  SCALABLE   PURPOSEFUL
-```
-
-</div>
-
----
-
-## 📡 ｢ 通信 ｣ — COMMS.CHANNEL
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_USUARIO)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu@email.com)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TU_USUARIO)
-
-</div>
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  ║
-║  ░                                                              ░  ║
-║  ░        [ ⚡ SYSTEM ONLINE ] — BUILD. LEARN. ENDURE.          ░  ║
-║  ░                                                              ░  ║
-║  ░    「システムは生き続ける」— The system lives on.              ░  ║
-║  ░                                                              ░  ║
-║  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=TU_USUARIO.TU_USUARIO&color=00FFB3)
-
-</div>
-
-<!-- END OF FILE — 東京グリッド // NEO-JAPAN SECTOR 7 -->
