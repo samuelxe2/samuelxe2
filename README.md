@@ -544,120 +544,55 @@ class Engineer:
 
 ---
 ## 道 — THE WAY
-
 <div align="center">
 
 <svg width="680" height="440" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" style="background:#0a0f0a; border-radius:12px; max-width:100%; height:auto;">
-  <defs>
-    <style>
-      @keyframes rise1 { from { transform: scaleY(0); } to { transform: scaleY(1); } }
-      @keyframes rise2 { from { transform: scaleY(0); } to { transform: scaleY(1); } }
-      @keyframes rise3 { from { transform: scaleY(0); } to { transform: scaleY(1); } }
-      @keyframes pulse { 0%, 100% { opacity: .3; } 50% { opacity: .9; } }
-      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
-      @keyframes scan  { from { transform: translateY(-440px); } to { transform: translateY(440px); } }
-      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 99% { opacity: 0; } }
-      @keyframes fadeUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+  <!-- Fondo oscuro -->
+  <rect width="680" height="440" fill="#0a0f0a"/>
 
-      .floor1 { transform-origin: 340px 380px; animation: rise1 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s both; }
-      .floor2 { transform-origin: 340px 300px; animation: rise2 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0.6s both; }
-      .floor3 { transform-origin: 340px 210px; animation: rise3 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 1s both; }
-
-      .wa { animation: pulse 2.4s ease-in-out infinite; }
-      .wb { animation: pulse 2.4s ease-in-out 0.8s infinite; }
-      .wc { animation: pulse 2.4s ease-in-out 1.6s infinite; }
-
-      .ta { animation: float 3s ease-in-out infinite; }
-      .tb { animation: float 3s ease-in-out 1s infinite; }
-      .tc { animation: float 3s ease-in-out 2s infinite; }
-
-      .scanline { animation: scan 6s linear infinite; opacity: 0.07; }
-
-      .cursor { animation: blink 1s step-end infinite; }
-
-      .appear1 { animation: fadeUp 0.5s ease 1.8s both; }
-      .appear2 { animation: fadeUp 0.5s ease 2.1s both; }
-      .appear3 { animation: fadeUp 0.5s ease 2.4s both; }
-    </style>
-  </defs>
-
-  <!-- Scan line -->
-  <rect class="scanline" x="0" y="0" width="680" height="3" fill="#00FFB3"/>
-
-  <!-- Ground -->
+  <!-- Suelo / base -->
   <rect x="0" y="390" width="680" height="50" fill="#060c06"/>
   <rect x="0" y="388" width="680" height="3" fill="#00FFB3" opacity="0.3"/>
 
-  <!-- Simple city silhouette bg -->
-  <g opacity="0.15">
-    <!-- left buildings -->
-    <rect x="30"  y="340" width="18" height="50" fill="#0d1a0d"/>
-    <rect x="55"  y="320" width="14" height="70" fill="#0d1a0d"/>
-    <rect x="76"  y="350" width="22" height="40" fill="#0d1a0d"/>
-    <rect x="105" y="330" width="16" height="60" fill="#0d1a0d"/>
-    <rect x="128" y="310" width="20" height="80" fill="#0d1a0d"/>
-    <!-- right buildings -->
-    <rect x="532" y="345" width="18" height="45" fill="#0d1a0d"/>
-    <rect x="556" y="325" width="14" height="65" fill="#0d1a0d"/>
-    <rect x="577" y="338" width="22" height="52" fill="#0d1a0d"/>
-    <rect x="606" y="318" width="16" height="72" fill="#0d1a0d"/>
-    <rect x="630" y="306" width="20" height="84" fill="#0d1a0d"/>
-  </g>
-
+  <!-- Edificio - pisos estáticos (sin rise animado para máxima compatibilidad) -->
   <!-- Floor 1 -->
-  <g class="floor1">
-    <rect x="210" y="310" width="260" height="80" rx="2" fill="#002918" stroke="#00FFB3" stroke-width="1.2"/>
-    <g opacity="0.3" stroke="#00FFB3" stroke-width="0.3">
-      <line x1="210" y1="330" x2="470" y2="330"/>
-      <line x1="210" y1="350" x2="470" y2="350"/>
-      <line x1="210" y1="370" x2="470" y2="370"/>
-    </g>
-    <g>
-      <rect class="wa" x="228" y="320" width="22" height="14" rx="1" fill="#00FFB3" opacity="0.3"/>
-      <rect class="wb" x="258" y="320" width="22" height="14" rx="1" fill="#00FFB3" opacity="0.3"/>
-      <rect class="wc" x="288" y="320" width="22" height="14" rx="1" fill="#FFD700" opacity="0.25"/>
-      <!-- ... (resto de ventanas similares) -->
-    </g>
-    <text x="340" y="358" font-family="monospace" font-size="11" fill="#00FFB3" text-anchor="middle" font-weight="bold">CLEAN CODE</text>
-    <text x="340" y="374" font-family="monospace" font-size="9"  fill="#44aa77" text-anchor="middle">Readability · Naming · Single responsibility</text>
-  </g>
+  <rect x="210" y="310" width="260" height="80" rx="3" fill="#002918" stroke="#00FFB3" stroke-width="1.5"/>
+  <text x="340" y="355" font-family="monospace" font-size="13" fill="#00FFB3" text-anchor="middle" font-weight="bold">CLEAN CODE</text>
+  <text x="340" y="375" font-family="monospace" font-size="10" fill="#44aa77" text-anchor="middle">Readability · Naming · Single Responsibility</text>
 
   <!-- Floor 2 -->
-  <g class="floor2">
-    <rect x="225" y="225" width="230" height="82" rx="2" fill="#001a11" stroke="#00cc88" stroke-width="1.2"/>
-    <!-- líneas y ventanas similares... -->
-    <text x="340" y="274" font-family="monospace" font-size="11" fill="#00cc88" text-anchor="middle" font-weight="bold">SOLID PRINCIPLES</text>
-    <text x="340" y="290" font-family="monospace" font-size="9"  fill="#33886a" text-anchor="middle">Open/Closed · Dependency Inversion · Interface Segregation</text>
-  </g>
+  <rect x="225" y="225" width="230" height="82" rx="3" fill="#001a11" stroke="#00cc88" stroke-width="1.5"/>
+  <text x="340" y="270" font-family="monospace" font-size="13" fill="#00cc88" text-anchor="middle" font-weight="bold">SOLID PRINCIPLES</text>
+  <text x="340" y="290" font-family="monospace" font-size="10" fill="#33886a" text-anchor="middle">Open/Closed · Dependency Inversion · Interface Segregation</text>
 
   <!-- Floor 3 -->
-  <g class="floor3">
-    <rect x="245" y="148" width="190" height="74" rx="2" fill="#001208" stroke="#69F0AE" stroke-width="1.2"/>
-    <!-- líneas y ventanas similares... -->
-    <text x="340" y="188" font-family="monospace" font-size="11" fill="#69F0AE" text-anchor="middle" font-weight="bold">SCALABLE ARCHITECTURE</text>
-    <text x="340" y="204" font-family="monospace" font-size="9"  fill="#2a7a4a" text-anchor="middle">Layers · Separation of Concerns · Extensibility</text>
-  </g>
+  <rect x="245" y="148" width="190" height="74" rx="3" fill="#001208" stroke="#69F0AE" stroke-width="1.5"/>
+  <text x="340" y="185" font-family="monospace" font-size="13" fill="#69F0AE" text-anchor="middle" font-weight="bold">SCALABLE ARCHITECTURE</text>
+  <text x="340" y="205" font-family="monospace" font-size="10" fill="#2a7a4a" text-anchor="middle">Layers · Separation of Concerns · Extensibility</text>
 
-  <!-- Spire / antenna -->
-  <line x1="340" y1="148" x2="340" y2="80" stroke="#00FFB3" stroke-width="1.2"/>
-  <circle cx="340" cy="78" r="4" fill="#00FFB3">
-    <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+  <!-- Antena / spire con pulso suave -->
+  <line x1="340" y1="148" x2="340" y2="75" stroke="#00FFB3" stroke-width="2"/>
+  <circle cx="340" cy="70" r="6" fill="#00FFB3">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="6;8;6" dur="2.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Floating tags (left) -->
-  <g class="ta appear1">
-    <rect x="38" y="298" width="140" height="26" rx="4" fill="#001a11" stroke="#00FFB3" stroke-width="0.8"/>
-    <text x="108" y="315" font-family="monospace" font-size="9" fill="#00FFB3" text-anchor="middle">maintainability</text>
-  </g>
-  <!-- ... (agrega los otros tags de la misma forma) -->
+  <!-- Scanline descendente (efecto terminal viejo) -->
+  <rect x="0" y="0" width="680" height="4" fill="#00FFB3" opacity="0.15">
+    <animate attributeName="y" from="-10" to="440" dur="8s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Terminal bar -->
+  <!-- Terminal inferior -->
   <rect x="0" y="406" width="680" height="34" fill="#060c06"/>
-  <text x="20"  y="428" font-family="monospace" font-size="10" fill="#00FFB3">$ engineer --mode=good_practices --output=scalable_systems</text>
-  <text x="648" y="428" font-family="monospace" font-size="11" fill="#00FFB3" class="cursor">_</text>
+  <text x="20" y="428" font-family="monospace" font-size="11" fill="#00FFB3">$ engineer --mode=good_practices --output=scalable_systems</text>
+  <text x="648" y="428" font-family="monospace" font-size="13" fill="#00FFB3">
+    _
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </text>
 </svg>
 
 **Build systems that endure — clean architecture outlasts any single feature.**
+
 
 </div>
 
