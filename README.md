@@ -547,6 +547,32 @@ class Engineer:
 <div align="center">
 
 <svg width="680" height="440" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" style="background:#0a0f0a; border-radius:12px; max-width:100%; height:auto;">
+  <!-- Estilos CSS para animaciones compatibles -->
+  <style>
+    @keyframes pulse {
+      0% { opacity: 1; r: 6; }
+      50% { opacity: 0.4; r: 8; }
+      100% { opacity: 1; r: 6; }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-10px); }
+      100% { transform: translateY(440px); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .antenna-pulse {
+      animation: pulse 2.5s infinite ease-in-out;
+    }
+    .scanline {
+      animation: scanline 8s infinite linear;
+    }
+    .cursor-blink {
+      animation: blink 1.1s infinite step-end;
+    }
+  </style>
+
   <!-- Fondo oscuro -->
   <rect width="680" height="440" fill="#0a0f0a"/>
 
@@ -554,45 +580,35 @@ class Engineer:
   <rect x="0" y="390" width="680" height="50" fill="#060c06"/>
   <rect x="0" y="388" width="680" height="3" fill="#00FFB3" opacity="0.3"/>
 
-  <!-- Edificio - pisos estáticos (sin rise animado para máxima compatibilidad) -->
-  <!-- Floor 1 -->
+  <!-- Floor 1: CLEAN CODE -->
   <rect x="210" y="310" width="260" height="80" rx="3" fill="#002918" stroke="#00FFB3" stroke-width="1.5"/>
   <text x="340" y="355" font-family="monospace" font-size="13" fill="#00FFB3" text-anchor="middle" font-weight="bold">CLEAN CODE</text>
   <text x="340" y="375" font-family="monospace" font-size="10" fill="#44aa77" text-anchor="middle">Readability · Naming · Single Responsibility</text>
 
-  <!-- Floor 2 -->
+  <!-- Floor 2: SOLID PRINCIPLES -->
   <rect x="225" y="225" width="230" height="82" rx="3" fill="#001a11" stroke="#00cc88" stroke-width="1.5"/>
   <text x="340" y="270" font-family="monospace" font-size="13" fill="#00cc88" text-anchor="middle" font-weight="bold">SOLID PRINCIPLES</text>
   <text x="340" y="290" font-family="monospace" font-size="10" fill="#33886a" text-anchor="middle">Open/Closed · Dependency Inversion · Interface Segregation</text>
 
-  <!-- Floor 3 -->
+  <!-- Floor 3: SCALABLE ARCHITECTURE -->
   <rect x="245" y="148" width="190" height="74" rx="3" fill="#001208" stroke="#69F0AE" stroke-width="1.5"/>
   <text x="340" y="185" font-family="monospace" font-size="13" fill="#69F0AE" text-anchor="middle" font-weight="bold">SCALABLE ARCHITECTURE</text>
   <text x="340" y="205" font-family="monospace" font-size="10" fill="#2a7a4a" text-anchor="middle">Layers · Separation of Concerns · Extensibility</text>
 
-  <!-- Antena / spire con pulso suave -->
+  <!-- Antena con pulso (CSS animation) -->
   <line x1="340" y1="148" x2="340" y2="75" stroke="#00FFB3" stroke-width="2"/>
-  <circle cx="340" cy="70" r="6" fill="#00FFB3">
-    <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="6;8;6" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="340" cy="70" r="6" fill="#00FFB3" class="antenna-pulse" />
 
-  <!-- Scanline descendente (efecto terminal viejo) -->
-  <rect x="0" y="0" width="680" height="4" fill="#00FFB3" opacity="0.15">
-    <animate attributeName="y" from="-10" to="440" dur="8s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Scanline descendente (CSS animation) -->
+  <rect x="0" y="0" width="680" height="4" fill="#00FFB3" opacity="0.15" class="scanline" />
 
   <!-- Terminal inferior -->
   <rect x="0" y="406" width="680" height="34" fill="#060c06"/>
   <text x="20" y="428" font-family="monospace" font-size="11" fill="#00FFB3">$ engineer --mode=good_practices --output=scalable_systems</text>
-  <text x="648" y="428" font-family="monospace" font-size="13" fill="#00FFB3">
-    _
-    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
-  </text>
+  <text x="648" y="428" font-family="monospace" font-size="13" fill="#00FFB3" class="cursor-blink">_</text>
 </svg>
 
 **Build systems that endure — clean architecture outlasts any single feature.**
-
 
 </div>
 
