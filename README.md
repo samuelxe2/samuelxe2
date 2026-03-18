@@ -546,150 +546,44 @@ class Engineer:
 
 ## 道 — THE WAY
 
-<div align="center">
+<p align="center">
 
-<svg width="680" height="440" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" style="background:#0a0f0a;border-radius:12px;">
-  <defs>
-    <style>
-      @keyframes rise1{from{transform:scaleY(0)}to{transform:scaleY(1)}}
-      @keyframes rise2{from{transform:scaleY(0)}to{transform:scaleY(1)}}
-      @keyframes rise3{from{transform:scaleY(0)}to{transform:scaleY(1)}}
-      @keyframes pw{0%,100%{opacity:.3}50%{opacity:.9}}
-      @keyframes ft{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
-      @keyframes sc{from{transform:translateY(0)}to{transform:translateY(340px)}}
-      @keyframes bl{0%,49%{opacity:1}50%,99%{opacity:0}}
-      @keyframes du{from{transform:translateY(30px);opacity:0}to{transform:translateY(0);opacity:1}}
-      .f1{transform-origin:340px 380px;animation:rise1 .6s cubic-bezier(.22,.61,.36,1) .2s both}
-      .f2{transform-origin:340px 300px;animation:rise2 .6s cubic-bezier(.22,.61,.36,1) .6s both}
-      .f3{transform-origin:340px 210px;animation:rise3 .6s cubic-bezier(.22,.61,.36,1) 1s both}
-      .wa{animation:pw 2.4s ease-in-out infinite}
-      .wb{animation:pw 2.4s ease-in-out .8s infinite}
-      .wc{animation:pw 2.4s ease-in-out 1.6s infinite}
-      .ta{animation:ft 3s ease-in-out infinite}
-      .tb{animation:ft 3s ease-in-out 1s infinite}
-      .tc{animation:ft 3s ease-in-out 2s infinite}
-      .sl{animation:sc 3s linear infinite;opacity:.07}
-      .cu{animation:bl 1s step-end infinite}
-      .d1{animation:du .5s ease 1.8s both}
-      .d2{animation:du .5s ease 2.1s both}
-      .d3{animation:du .5s ease 2.4s both}
-    </style>
-  </defs>
-  <!-- scan line -->
-  <rect class="sl" x="0" y="0" width="680" height="3" fill="#00FFB3"/>
-  <!-- ground -->
+<svg width="680" height="440" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="100%" height="100%" fill="#0a0f0a"/>
+
+  <!-- Base -->
   <rect x="0" y="390" width="680" height="50" fill="#060c06"/>
   <rect x="0" y="388" width="680" height="3" fill="#00FFB3" opacity=".3"/>
-  <!-- city bg left -->
-  <rect x="30" y="340" width="18" height="50" fill="#0d1a0d"/>
-  <rect x="55" y="320" width="14" height="70" fill="#0d1a0d"/>
-  <rect x="76" y="350" width="22" height="40" fill="#0d1a0d"/>
-  <rect x="105" y="330" width="16" height="60" fill="#0d1a0d"/>
-  <rect x="128" y="310" width="20" height="80" fill="#0d1a0d"/>
-  <!-- city bg right -->
-  <rect x="532" y="345" width="18" height="45" fill="#0d1a0d"/>
-  <rect x="556" y="325" width="14" height="65" fill="#0d1a0d"/>
-  <rect x="577" y="338" width="22" height="52" fill="#0d1a0d"/>
-  <rect x="606" y="318" width="16" height="72" fill="#0d1a0d"/>
-  <rect x="630" y="306" width="20" height="84" fill="#0d1a0d"/>
-  <!-- FLOOR 1 -->
-  <g class="f1">
-    <rect x="210" y="310" width="260" height="80" rx="2" fill="#002918" stroke="#00FFB3" stroke-width="1.2"/>
-    <line x1="210" y1="330" x2="470" y2="330" stroke="#00FFB3" stroke-width=".3" opacity=".3"/>
-    <line x1="210" y1="350" x2="470" y2="350" stroke="#00FFB3" stroke-width=".3" opacity=".3"/>
-    <line x1="210" y1="370" x2="470" y2="370" stroke="#00FFB3" stroke-width=".3" opacity=".3"/>
-    <rect class="wa" x="228" y="320" width="22" height="14" rx="1" fill="#00FFB3" opacity=".3"/>
-    <rect class="wb" x="258" y="320" width="22" height="14" rx="1" fill="#00FFB3" opacity=".3"/>
-    <rect class="wa" x="288" y="320" width="22" height="14" rx="1" fill="#FFD700" opacity=".25"/>
-    <rect class="wc" x="318" y="320" width="22" height="14" rx="1" fill="#00FFB3" opacity=".3"/>
-    <rect class="wb" x="348" y="320" width="22" height="14" rx="1" fill="#00FFB3" opacity=".3"/>
-    <rect class="wa" x="378" y="320" width="22" height="14" rx="1" fill="#FFD700" opacity=".25"/>
-    <rect class="wc" x="408" y="320" width="22" height="14" rx="1" fill="#00FFB3" opacity=".3"/>
-    <rect class="wb" x="438" y="320" width="22" height="14" rx="1" fill="#00FFB3" opacity=".3"/>
-    <text x="340" y="358" font-family="monospace" font-size="11" fill="#00FFB3" text-anchor="middle" font-weight="bold">CLEAN CODE</text>
-    <text x="340" y="374" font-family="monospace" font-size="9" fill="#44aa77" text-anchor="middle">Readability · Naming · Single responsibility</text>
-  </g>
-  <!-- FLOOR 2 -->
-  <g class="f2">
-    <rect x="225" y="225" width="230" height="82" rx="2" fill="#001a11" stroke="#00cc88" stroke-width="1.2"/>
-    <line x1="225" y1="245" x2="455" y2="245" stroke="#00cc88" stroke-width=".3" opacity=".3"/>
-    <line x1="225" y1="265" x2="455" y2="265" stroke="#00cc88" stroke-width=".3" opacity=".3"/>
-    <line x1="225" y1="285" x2="455" y2="285" stroke="#00cc88" stroke-width=".3" opacity=".3"/>
-    <rect class="wb" x="242" y="234" width="20" height="12" rx="1" fill="#00cc88" opacity=".3"/>
-    <rect class="wa" x="268" y="234" width="20" height="12" rx="1" fill="#00cc88" opacity=".3"/>
-    <rect class="wc" x="294" y="234" width="20" height="12" rx="1" fill="#FFD700" opacity=".2"/>
-    <rect class="wb" x="320" y="234" width="20" height="12" rx="1" fill="#00cc88" opacity=".3"/>
-    <rect class="wa" x="346" y="234" width="20" height="12" rx="1" fill="#00cc88" opacity=".3"/>
-    <rect class="wc" x="372" y="234" width="20" height="12" rx="1" fill="#FFD700" opacity=".2"/>
-    <rect class="wa" x="398" y="234" width="20" height="12" rx="1" fill="#00cc88" opacity=".3"/>
-    <rect class="wb" x="424" y="234" width="20" height="12" rx="1" fill="#00cc88" opacity=".3"/>
-    <text x="340" y="274" font-family="monospace" font-size="11" fill="#00cc88" text-anchor="middle" font-weight="bold">SOLID PRINCIPLES</text>
-    <text x="340" y="290" font-family="monospace" font-size="9" fill="#33886a" text-anchor="middle">Open/Closed · Dependency inv. · Interface seg.</text>
-  </g>
-  <!-- FLOOR 3 -->
-  <g class="f3">
-    <rect x="245" y="148" width="190" height="74" rx="2" fill="#001208" stroke="#69F0AE" stroke-width="1.2"/>
-    <line x1="245" y1="168" x2="435" y2="168" stroke="#69F0AE" stroke-width=".3" opacity=".3"/>
-    <line x1="245" y1="188" x2="435" y2="188" stroke="#69F0AE" stroke-width=".3" opacity=".3"/>
-    <rect class="wc" x="260" y="157" width="18" height="10" rx="1" fill="#69F0AE" opacity=".35"/>
-    <rect class="wa" x="284" y="157" width="18" height="10" rx="1" fill="#69F0AE" opacity=".35"/>
-    <rect class="wb" x="308" y="157" width="18" height="10" rx="1" fill="#FFD700" opacity=".25"/>
-    <rect class="wc" x="332" y="157" width="18" height="10" rx="1" fill="#69F0AE" opacity=".35"/>
-    <rect class="wa" x="356" y="157" width="18" height="10" rx="1" fill="#69F0AE" opacity=".35"/>
-    <rect class="wb" x="380" y="157" width="18" height="10" rx="1" fill="#FFD700" opacity=".25"/>
-    <rect class="wc" x="404" y="157" width="18" height="10" rx="1" fill="#69F0AE" opacity=".35"/>
-    <text x="340" y="188" font-family="monospace" font-size="11" fill="#69F0AE" text-anchor="middle" font-weight="bold">SCALABLE ARCHITECTURE</text>
-    <text x="340" y="204" font-family="monospace" font-size="9" fill="#2a7a4a" text-anchor="middle">Layers · Separation of concerns · Extensibility</text>
-  </g>
-  <!-- spire -->
-  <line x1="340" y1="148" x2="340" y2="100" stroke="#00FFB3" stroke-width="1.5"/>
-  <line x1="340" y1="100" x2="340" y2="80" stroke="#00FFB3" stroke-width=".8" opacity=".5"/>
-  <circle cx="340" cy="78" r="3" fill="#00FFB3">
-    <animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>
-  </circle>
-  <!-- tags left -->
-  <g class="ta d1">
-    <rect x="38" y="298" width="140" height="26" rx="4" fill="#001a11" stroke="#00FFB3" stroke-width=".8"/>
-    <text x="108" y="315" font-family="monospace" font-size="9" fill="#00FFB3" text-anchor="middle">maintainability</text>
-    <line x1="178" y1="311" x2="210" y2="340" stroke="#00FFB3" stroke-width=".5" stroke-dasharray="3,2" opacity=".5"/>
-  </g>
-  <g class="tb d2">
-    <rect x="28" y="220" width="150" height="26" rx="4" fill="#001208" stroke="#00cc88" stroke-width=".8"/>
-    <text x="103" y="237" font-family="monospace" font-size="9" fill="#00cc88" text-anchor="middle">separation of concerns</text>
-    <line x1="178" y1="233" x2="225" y2="255" stroke="#00cc88" stroke-width=".5" stroke-dasharray="3,2" opacity=".5"/>
-  </g>
-  <g class="tc d3">
-    <rect x="42" y="140" width="130" height="26" rx="4" fill="#000d08" stroke="#69F0AE" stroke-width=".8"/>
-    <text x="107" y="157" font-family="monospace" font-size="9" fill="#69F0AE" text-anchor="middle">extensible design</text>
-    <line x1="172" y1="153" x2="245" y2="172" stroke="#69F0AE" stroke-width=".5" stroke-dasharray="3,2" opacity=".5"/>
-  </g>
-  <!-- tags right -->
-  <g class="tb d1">
-    <rect x="500" y="298" width="140" height="26" rx="4" fill="#001a11" stroke="#00FFB3" stroke-width=".8"/>
-    <text x="570" y="315" font-family="monospace" font-size="9" fill="#00FFB3" text-anchor="middle">testability</text>
-    <line x1="500" y1="311" x2="470" y2="340" stroke="#00FFB3" stroke-width=".5" stroke-dasharray="3,2" opacity=".5"/>
-  </g>
-  <g class="tc d2">
-    <rect x="508" y="220" width="142" height="26" rx="4" fill="#001208" stroke="#00cc88" stroke-width=".8"/>
-    <text x="579" y="237" font-family="monospace" font-size="9" fill="#00cc88" text-anchor="middle">loose coupling</text>
-    <line x1="508" y1="233" x2="455" y2="255" stroke="#00cc88" stroke-width=".5" stroke-dasharray="3,2" opacity=".5"/>
-  </g>
-  <g class="ta d3">
-    <rect x="514" y="140" width="132" height="26" rx="4" fill="#000d08" stroke="#69F0AE" stroke-width=".8"/>
-    <text x="580" y="157" font-family="monospace" font-size="9" fill="#69F0AE" text-anchor="middle">high cohesion</text>
-    <line x1="514" y1="153" x2="435" y2="172" stroke="#69F0AE" stroke-width=".5" stroke-dasharray="3,2" opacity=".5"/>
-  </g>
-  <!-- terminal bar -->
-  <rect x="0" y="406" width="680" height="34" fill="#060c06"/>
-  <text x="20" y="428" font-family="monospace" font-size="10" fill="#00FFB3">$ engineer --mode=good_practices --output=scalable_systems</text>
-  <text x="648" y="428" font-family="monospace" font-size="11" fill="#00FFB3" class="cu">_</text>
+
+  <!-- Torre (simplificada para compatibilidad) -->
+  <rect x="210" y="310" width="260" height="80" fill="#002918" stroke="#00FFB3"/>
+  <text x="340" y="350" font-family="monospace" font-size="12" fill="#00FFB3" text-anchor="middle">
+    CLEAN CODE
+  </text>
+
+  <rect x="225" y="225" width="230" height="82" fill="#001a11" stroke="#00cc88"/>
+  <text x="340" y="270" font-family="monospace" font-size="12" fill="#00cc88" text-anchor="middle">
+    SOLID PRINCIPLES
+  </text>
+
+  <rect x="245" y="148" width="190" height="74" fill="#001208" stroke="#69F0AE"/>
+  <text x="340" y="185" font-family="monospace" font-size="12" fill="#69F0AE" text-anchor="middle">
+    SCALABLE ARCHITECTURE
+  </text>
+
+  <!-- Terminal -->
+  <text x="20" y="420" font-family="monospace" font-size="10" fill="#00FFB3">
+    $ engineer --mode=good_practices --output=scalable_systems
+  </text>
+
 </svg>
 
-*Build systems that endure — clean architecture outlasts any single feature.*
-
-</div>
+</p>
 
 ---
+
+**Build systems that endure — clean architecture outlasts any single feature.**
 
 ## 通信 — CONTACT
 
