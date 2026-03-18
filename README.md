@@ -547,7 +547,7 @@ class Engineer:
 <div align="center">
 
 <svg width="680" height="440" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" style="background:#0a0f0a; border-radius:12px; max-width:100%; height:auto;">
-  <!-- Estilos CSS para animaciones compatibles -->
+  <!-- Estilos CSS para animaciones (soportadas en GitHub) -->
   <style>
     @keyframes pulse {
       0% { opacity: 1; r: 6; }
