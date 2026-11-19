@@ -54,18 +54,44 @@ class Engineer:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=php,python,ts,js,java,haskell,postgres&theme=dark" alt="Languages"/>
-<br/><sub><b>Languages</b> &nbsp;·&nbsp; PHP · Python · TypeScript · JavaScript · Java · Haskell · SQL · Prolog</sub>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=laravel,fastapi,react,azure,docker,linux,git&theme=dark" alt="Frameworks and infra"/>
-<br/><sub><b>Frameworks · Cloud · Tooling</b> &nbsp;·&nbsp; Laravel · FastAPI · React · Polars · Azure · Docker · Linux · Git</sub>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prolog-E61B23?style=for-the-badge&logoColor=white"/>
+<table>
+<tr>
+<td align="right" width="190"><b>Languages</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=python&theme=dark" width="40" title="Python" alt="Python"/>
+<img src="https://skillicons.dev/icons?i=php&theme=dark" width="40" title="PHP" alt="PHP"/>
+<img src="https://skillicons.dev/icons?i=ts&theme=dark" width="40" title="TypeScript" alt="TypeScript"/>
+<img src="https://skillicons.dev/icons?i=js&theme=dark" width="40" title="JavaScript" alt="JavaScript"/>
+<img src="https://skillicons.dev/icons?i=java&theme=dark" width="40" title="Java" alt="Java"/>
+<img src="https://skillicons.dev/icons?i=haskell&theme=dark" width="40" title="Haskell" alt="Haskell"/>
+<img src="./assets/icons/prolog.svg" width="40" title="Prolog" alt="Prolog"/>
+</td>
+</tr>
+<tr>
+<td align="right"><b>Backend &amp; Data</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=laravel&theme=dark" width="40" title="Laravel" alt="Laravel"/>
+<img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="40" title="FastAPI" alt="FastAPI"/>
+<img src="./assets/icons/polars.svg" width="40" title="Polars" alt="Polars"/>
+<img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="40" title="PostgreSQL" alt="PostgreSQL"/>
+</td>
+</tr>
+<tr>
+<td align="right"><b>Frontend</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=react&theme=dark" width="40" title="React" alt="React"/>
+</td>
+</tr>
+<tr>
+<td align="right"><b>Cloud &amp; Tooling</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=azure&theme=dark" width="40" title="Microsoft Azure" alt="Azure"/>
+<img src="https://skillicons.dev/icons?i=docker&theme=dark" width="40" title="Docker" alt="Docker"/>
+<img src="https://skillicons.dev/icons?i=linux&theme=dark" width="40" title="Linux" alt="Linux"/>
+<img src="https://skillicons.dev/icons?i=git&theme=dark" width="40" title="Git" alt="Git"/>
+</td>
+</tr>
+</table>
 
 </div>
 
