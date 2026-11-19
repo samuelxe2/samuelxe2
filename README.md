@@ -25,10 +25,10 @@ I'm a **backend developer and systems engineer** who cares about the parts of so
 
 **What I'm focused on**
 
-- 🔧 Building **ETL pipelines** in Python with **Polars**
-- 🏗️ Designing **REST APIs** with Laravel and FastAPI
-- ☁️ Integrating services on **Microsoft Azure**
-- 🧠 Applying **OS, algorithms & MDE** to real systems
+- Building **ETL pipelines** in Python with **Polars**
+- Designing **REST APIs** with Laravel and FastAPI
+- Integrating services on **Microsoft Azure**
+- Applying **OS, algorithms & MDE** to real systems
 
 </td>
 <td width="50%" valign="top">
@@ -89,7 +89,7 @@ class Engineer:
   <img src="./assets/project-metamodel.svg" width="100%" alt="metamodelo_metametamodelo"/>
 </a>
 
-**⚡ [metamodelo_metametamodelo](https://github.com/samuelxe2/metamodelo_metametamodelo)** &nbsp;`TypeScript` `MDE`
+**[metamodelo_metametamodelo](https://github.com/samuelxe2/metamodelo_metametamodelo)** &nbsp;`TypeScript` `MDE`
 <br/>A four-level modeling stack (M3 → M0) applying Model-Driven Engineering principles: meta-metamodel definition, metamodels, and conformance between layers.
 
 <br/>
@@ -98,7 +98,7 @@ class Engineer:
   <img src="./assets/project-aco.svg" width="100%" alt="ACO_Server_Routing"/>
 </a>
 
-**🐜 [ACO_Server_Routing](https://github.com/samuelxe2/ACO_Server_Routing)** &nbsp;`Python` `Graphs` `Metaheuristics`
+**[ACO_Server_Routing](https://github.com/samuelxe2/ACO_Server_Routing)** &nbsp;`Python` `Graphs` `Metaheuristics`
 <br/>Ant Colony Optimization applied to server routing: agents deposit pheromone on low-latency links until the colony converges on the best route.
 
 <br/>
@@ -107,18 +107,18 @@ class Engineer:
   <img src="./assets/project-mini-os.svg" width="100%" alt="mini_os"/>
 </a>
 
-**🖥️ [mini_os](https://github.com/samuelxe2/mini_os)** &nbsp;`Python` `OS theory`
+**[mini_os](https://github.com/samuelxe2/mini_os)** &nbsp;`Python` `OS theory`
 <br/>A layered operating-system simulator: boot sequence, system calls, Round-Robin and priority scheduling, and paged memory allocation.
 
 ### ◈ Tier II — Functional systems
 
 | Project | Stack | Description |
 |:--|:--|:--|
-| 🔍 [**scanner**](https://github.com/samuelxe2/scanner) | `Python` | Network analysis and port scanning |
-| ⚙️ [**SimuladorPlanificacion**](https://github.com/samuelxe2/SimuladorPlanificacion) | `Python` | CPU scheduling simulator — FCFS · SJF · RR |
-| 🌐 [**interfaceBD**](https://github.com/samuelxe2/interfaceBD) | `TypeScript` | Database management UI |
-| 💧 [**simulacion_agua**](https://github.com/samuelxe2/simulacion_agua) | `Python` | Numerical fluid simulation |
-| 📡 **wan_tramas** · **teleinformatica2** | — | WAN frames and telecom coursework |
+| [**scanner**](https://github.com/samuelxe2/scanner) | `Python` | Network analysis and port scanning |
+| [**SimuladorPlanificacion**](https://github.com/samuelxe2/SimuladorPlanificacion) | `Python` | CPU scheduling simulator — FCFS · SJF · RR |
+| [**interfaceBD**](https://github.com/samuelxe2/interfaceBD) | `TypeScript` | Database management UI |
+| [**simulacion_agua**](https://github.com/samuelxe2/simulacion_agua) | `Python` | Numerical fluid simulation |
+| **wan_tramas** · **teleinformatica2** | — | WAN frames and telecom coursework |
 
 <details>
 <summary><b>◈ Tier I — Modules &amp; utilities</b> &nbsp;<sub>(click to expand)</sub></summary>
@@ -127,11 +127,11 @@ class Engineer:
 
 | Project | Stack | Description |
 |:--|:--|:--|
-| 🃏 **BlackJack-Recursivo** | `Python` | Blackjack implemented using recursion only |
-| 🧮 **probabilidad-final** | `Python` | Least squares and probabilistic models |
-| λ **Ejercicios-practicos-haskell** | `Haskell` | Functional programming exercises |
-| 🧠 **Nomina-prolog** · **familia** | `Prolog` | Declarative logic systems |
-| 🧩 **laberinto** | `Prolog` | Maze solving with logic rules |
+| **BlackJack-Recursivo** | `Python` | Blackjack implemented using recursion only |
+| **probabilidad-final** | `Python` | Least squares and probabilistic models |
+| **Ejercicios-practicos-haskell** | `Haskell` | Functional programming exercises |
+| **Nomina-prolog** · **familia** | `Prolog` | Declarative logic systems |
+| **laberinto** | `Prolog` | Maze solving with logic rules |
 
 </details>
 
@@ -177,10 +177,14 @@ class Engineer:
 
 <div align="center">
 
-<a href="https://github.com/samuelxe2"><img src="https://img.shields.io/badge/GitHub-samuelxe2-0D1117?style=for-the-badge&logo=github&logoColor=00FFB3"/></a>
+**Open to collaborations, backend & software architecture roles.**
+Feel free to reach out — I usually reply within 24–48 h.
 
-<a href="[https://www.linkedin.com/in/YOUR-PROFILE](https://www.linkedin.com/in/samuel-s%C3%A1nchez-pe%C3%B1a-27a063144/)"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:samuelantoniosanchez13@gmail.com"><img src="https://img.shields.io/badge/Email-write%20me-00FFB3?style=for-the-badge&logo=gmail&logoColor=0D1117"/></a>
+<br/>
+
+<a href="https://www.linkedin.com/in/samuel-s%C3%A1nchez-pe%C3%B1a-27a063144/" target="_blank" rel="noopener noreferrer"><img alt="LinkedIn — Samuel Sánchez Peña" src="https://img.shields.io/badge/LinkedIn-Samuel%20S%C3%A1nchez%20Pe%C3%B1a-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:samuelantoniosanchez13@gmail.com?subject=Contacto%20desde%20GitHub"><img alt="Email — samuelantoniosanchez13@gmail.com" src="https://img.shields.io/badge/Email-samuelantoniosanchez13%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=00FFB3"/></a>
+<a href="https://github.com/samuelxe2" target="_blank" rel="noopener noreferrer"><img alt="GitHub — samuelxe2" src="https://img.shields.io/badge/GitHub-samuelxe2-0D1117?style=for-the-badge&logo=github&logoColor=00FFB3"/></a>
 
 <br/><br/>
 

@@ -1,0 +1,74 @@
+<svg width="840" height="300" viewBox="0 0 840 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .in   { opacity: 0; animation: in .9s ease-out forwards; }
+    .d1 { animation-delay: .1s } .d2 { animation-delay: .35s } .d3 { animation-delay: .6s } .d4 { animation-delay: .85s }
+    .float { animation: float 6s ease-in-out infinite; }
+    .f2 { animation-delay: -1.5s } .f3 { animation-delay: -3s } .f4 { animation-delay: -4.5s }
+    .flow { stroke-dasharray: 4 8; animation: flow 1.6s linear infinite; }
+    @keyframes in    { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+    @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
+    @keyframes flow  { to { stroke-dashoffset: -24 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important } }
+  </style>
+
+  <rect width="840" height="300" rx="12" fill="#0D1117" stroke="#1d2b24"/>
+  <text x="28" y="34" font-size="12" fill="#4b6358">// skill.map — core domains</text>
+
+  <!-- connector -->
+  <line x1="120" y1="150" x2="720" y2="150" stroke="#00FFB3" stroke-opacity=".35" stroke-width="1.2" class="flow"/>
+
+  <!-- BACKEND -->
+  <g class="in d1"><g class="float">
+    <polygon points="50,100 120,72 190,100 120,128" fill="#003d1f" stroke="#00FFB3"/>
+    <polygon points="50,100 50,150 120,178 120,128" fill="#001f0f" stroke="#00FFB3"/>
+    <polygon points="120,128 190,100 190,150 120,178" fill="#002912" stroke="#00FFB3"/>
+    <text x="120" y="98" font-size="12" font-weight="bold" fill="#00FFB3" text-anchor="middle">BACKEND</text>
+    <text x="120" y="112" font-size="9" fill="#88ffcc" text-anchor="middle">core</text>
+  </g>
+    <text x="120" y="212" font-size="11" fill="#C9D1D9" text-anchor="middle">PHP · Laravel</text>
+    <text x="120" y="230" font-size="11" fill="#8b949e" text-anchor="middle">Python · FastAPI</text>
+    <text x="120" y="248" font-size="11" fill="#8b949e" text-anchor="middle">REST APIs · Auth</text>
+  </g>
+
+  <!-- DATA -->
+  <g class="in d2"><g class="float f2">
+    <polygon points="250,100 320,72 390,100 320,128" fill="#2a2400" stroke="#FFD700"/>
+    <polygon points="250,100 250,150 320,178 320,128" fill="#141100" stroke="#FFD700"/>
+    <polygon points="320,128 390,100 390,150 320,178" fill="#1c1800" stroke="#FFD700"/>
+    <text x="320" y="98" font-size="12" font-weight="bold" fill="#FFD700" text-anchor="middle">DATA ENG</text>
+    <text x="320" y="112" font-size="9" fill="#ffee88" text-anchor="middle">pipelines</text>
+  </g>
+    <text x="320" y="212" font-size="11" fill="#C9D1D9" text-anchor="middle">ETL · Polars</text>
+    <text x="320" y="230" font-size="11" fill="#8b949e" text-anchor="middle">SQL · Data modeling</text>
+    <text x="320" y="248" font-size="11" fill="#8b949e" text-anchor="middle">Batch processing</text>
+  </g>
+
+  <!-- CLOUD -->
+  <g class="in d3"><g class="float f3">
+    <polygon points="450,100 520,72 590,100 520,128" fill="#002640" stroke="#4FC3F7"/>
+    <polygon points="450,100 450,150 520,178 520,128" fill="#00111f" stroke="#4FC3F7"/>
+    <polygon points="520,128 590,100 590,150 520,178" fill="#001a2e" stroke="#4FC3F7"/>
+    <text x="520" y="98" font-size="12" font-weight="bold" fill="#4FC3F7" text-anchor="middle">CLOUD</text>
+    <text x="520" y="112" font-size="9" fill="#88ddff" text-anchor="middle">infra</text>
+  </g>
+    <text x="520" y="212" font-size="11" fill="#C9D1D9" text-anchor="middle">Microsoft Azure</text>
+    <text x="520" y="230" font-size="11" fill="#8b949e" text-anchor="middle">Docker · Linux</text>
+    <text x="520" y="248" font-size="11" fill="#8b949e" text-anchor="middle">Git · CI/CD</text>
+  </g>
+
+  <!-- CS CORE -->
+  <g class="in d4"><g class="float f4">
+    <polygon points="650,100 720,72 790,100 720,128" fill="#2a002a" stroke="#CE93D8"/>
+    <polygon points="650,100 650,150 720,178 720,128" fill="#140014" stroke="#CE93D8"/>
+    <polygon points="720,128 790,100 790,150 720,178" fill="#1c001c" stroke="#CE93D8"/>
+    <text x="720" y="98" font-size="12" font-weight="bold" fill="#CE93D8" text-anchor="middle">CS CORE</text>
+    <text x="720" y="112" font-size="9" fill="#ddaaee" text-anchor="middle">foundations</text>
+  </g>
+    <text x="720" y="212" font-size="11" fill="#C9D1D9" text-anchor="middle">OS · Algorithms</text>
+    <text x="720" y="230" font-size="11" fill="#8b949e" text-anchor="middle">Prolog · Haskell</text>
+    <text x="720" y="248" font-size="11" fill="#8b949e" text-anchor="middle">MDE · Metamodeling</text>
+  </g>
+
+  <text x="812" y="282" font-size="10" fill="#3a4a43" text-anchor="end">build systems that endure_</text>
+</svg>
